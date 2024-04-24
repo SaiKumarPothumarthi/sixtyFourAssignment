@@ -1,0 +1,232 @@
+
+.top-section{
+    background-color: rgb(36, 36, 106);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.greeting{
+    color: white;
+}
+.para{
+    color: rgb(158, 156, 156);
+    font-size: 13px;
+}
+.calender{
+    color: white;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.date{
+    color: white;
+    margin-right: 10px;
+}
+.notification{
+    margin-left: 20px;
+}
+.saved-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.saved-cards{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 25px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin-right: 25px;
+    margin-top: 20px;
+    
+}
+.main-container2{
+    background-color: #F8F8F8;
+    width: 100vw;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+.library-icon{
+    font-size: 25px;
+}
+.card1-color{
+    color: rgb(9, 187, 187);
+}
+.card2-color{
+    color: violet;
+}
+.card3-color{
+    color: red;
+}
+.card4-color{
+    color:orange;
+}
+.card5-color{
+    color: green;
+}
+.card6-color{
+    color: blueviolet;
+}
+.carousel-container{
+    height: 500px;
+    width: 60%;
+    padding-left:30px;
+    padding-right:30px;
+    color: black;
+    box-sizing: border-box;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.carousel-card{
+    height:400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.carosel-img{
+    height: 200px;
+    width: 100%;
+}
+.slick-slide>div{
+    margin: 0 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.expand-width{
+    width:87vw
+}
+.decraese-width{
+    width: 95vw;
+}
+.margin-expand{
+    margin-left: 203px;
+}
+.margin-decerease{
+    margin-left:80px ;
+}
+.View-btn{
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 9px;
+}
+.Recent-container{
+    width: 35%;
+    padding-left: 15px;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+.select{
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.space{
+    justify-content: space-between;
+}
+hr{
+    margin-top: 15px;
+    color: rgb(194, 190, 190);
+}
+
+.recent{
+    color:skyblue;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.recent-data{
+justify-content: space-between;
+margin-bottom: 20px;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: lightgray;
+
+}
+.line{
+    height: 80%;
+    border: solid 2px lightgray;
+    width: 0px;
+    margin-left: 5px;
+}
+.data-container{
+    width: 90%;
+}
+.date-year{
+    color: skyblue;
+    font-weight: 600;
+}
+
+@media  all and (min-width:0px) and (max-width:870px) {
+    .carousel-container{
+        width: 100%;
+    }
+    .saved-cards{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(240, 240, 240);
+        border-radius: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding-top: 25px;
+        padding-left: 15px;
+        box-sizing: border-box;
+        margin-right: 25px;
+        margin-bottom: 15px;
+        
+    }
+    .saved-cards-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Recent-container{
+        width: 80%;
+        padding-left: 15px;
+        box-sizing: border-box;
+        padding-right: 15px;
+        padding-top: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        height: 100%;
+        margin-left: 20px;
+    }
+}
